@@ -441,6 +441,76 @@ free -h
 
 ---
 
+## 🌐 Deploy Subdomain ke Vercel (Bonus)
+
+### Use Case
+- **Main domain (VPS):** https://gagitualdi.online → Landing page
+- **Subdomain (Vercel):** https://app.gagitualdi.online → Web App/Dashboard
+
+### Langkah Setup
+
+#### 1. Deploy ke Vercel
+```bash
+# Install Vercel CLI
+npm install -g vercel
+
+# Login
+vercel login
+
+# Deploy project
+cd your-app-folder
+vercel --prod
+```
+
+#### 2. Add Custom Domain di Vercel
+1. Buka https://vercel.com/dashboard
+2. Pilih project → **Settings** → **Domains**
+3. Add domain: `app.gagitualdi.online`
+4. Copy DNS records yang diminta Vercel
+
+#### 3. Setup DNS Subdomain
+Di DNS Manager gagitualdi.online, tambahkan:
+
+**CNAME Record (Recommended):**
+```
+Type: CNAME
+Host: app
+Value: cname.vercel-dns.com
+TTL: 14400
+```
+
+**Atau A Record:**
+```
+Type: A
+Host: app
+Value: 76.76.21.21 (Vercel IP)
+TTL: 14400
+```
+
+#### 4. Verify
+- Tunggu DNS propagation (5-30 menit)
+- Vercel auto-setup SSL
+- ✅ Live di: https://app.gagitualdi.online
+
+### Keuntungan Vercel untuk Subdomain
+- ✅ Free SSL otomatis
+- ✅ Global CDN (loading cepat worldwide)
+- ✅ Auto deploy dari GitHub
+- ✅ Zero server maintenance
+- ✅ Unlimited bandwidth (free tier)
+
+### Contoh Arsitektur Multi-Subdomain
+```
+gagitualdi.online              → Landing Page (VPS)
+www.gagitualdi.online          → Landing Page (VPS)
+app.gagitualdi.online          → Web App (Vercel)
+blog.gagitualdi.online         → Blog (Vercel/Ghost)
+api.gagitualdi.online          → API Backend (VPS/Railway)
+admin.gagitualdi.online        → Admin Panel (Vercel)
+```
+
+---
+
 **🎉 Deploy berhasil dengan VPS 1GB RAM + 2GB Swap!**
 
 Metode ini terbukti berhasil untuk Next.js production deployment di VPS budget dengan RAM terbatas.
