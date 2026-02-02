@@ -1,0 +1,255 @@
+Buatkan saya landing page modern dan profesional untuk website jasa freelance dengan ketentuan berikut:
+
+🧑‍💻 Tech Stack
+
+Gunakan:
+
+Next.js (App Router)
+
+React
+
+TypeScript
+
+Tailwind CSS
+
+Struktur clean, reusable components, dan best practice frontend.
+
+🎯 Tujuan Website
+
+Website ini adalah landing page untuk jasa:
+
+Pembuatan Website Kreatif untuk Brand & Kreator Muda
+Sekaligus menampilkan rekomendasi tools affiliate untuk kreator digital.
+
+Target audience:
+
+UMKM kreatif
+
+Brand clothing
+
+Coffee shop
+
+Personal brand
+
+Content creator
+
+Affiliate marketer pemula
+
+Gaya desain harus:
+
+Modern
+
+Clean
+
+Aesthetic
+
+Anak muda / kreatif vibe
+
+Banyak whitespace
+
+Smooth scrolling
+
+📱 Responsiveness
+
+Landing page harus:
+
+Fully responsive
+
+Mobile-first design
+
+Tampilan rapi di HP, tablet, dan desktop
+
+🔍 SEO Optimization (Frontend)
+
+Tambahkan:
+
+Proper <title> dan <meta description>
+
+Open Graph tags
+
+Semantic HTML5 structure
+
+Heading hierarchy rapi (h1, h2, h3)
+
+Alt text untuk semua gambar
+
+Fast loading structure
+
+🧩 Struktur Halaman
+
+Buat dalam 1 halaman landing dengan section berikut:
+
+1️⃣ Hero Section
+
+Isi:
+
+Headline besar dan menarik, contoh:
+“Website Aesthetic untuk Brand & Kreator yang Mau Naik Level”
+
+Subheadline yang menjelaskan value
+
+2 CTA button:
+
+“Lihat Portfolio”
+
+“Diskusi Gratis”
+
+Tambahkan ilustrasi atau mockup website di sisi kanan (desktop).
+
+2️⃣ Problem Section (Masalah Target Market)
+
+Judul contoh:
+“Masih Jualan Cuma dari Instagram?”
+
+Buat list masalah seperti:
+
+Brand terlihat kurang profesional
+
+Link di bio terbatas
+
+Sulit pasang iklan & tracking
+
+Susah bangun kepercayaan customer
+
+Tampilkan dalam bentuk cards/grid.
+
+3️⃣ Solusi / Services Section
+
+Judul:
+“Saya Bantu Kamu Punya Website yang Bekerja untuk Jualan”
+
+Tampilkan 3–4 service utama:
+
+Website brand / UMKM
+
+Landing page jualan
+
+Website personal brand
+
+Setup basic tracking & pixel
+
+Gunakan icon + deskripsi singkat tiap service.
+
+4️⃣ Portfolio Preview Section
+
+Judul:
+“Contoh Tampilan Website”
+
+Buat grid portfolio (dummy project) dengan:
+
+Gambar mockup
+
+Nama project
+
+Kategori (Brand, UMKM, Personal Brand)
+
+Hover effect modern.
+
+5️⃣ Paket Harga Section
+
+Judul:
+“Pilih Paket Sesuai Kebutuhanmu”
+
+Buat 3 pricing cards:
+
+Starter
+
+Growth
+
+Brand Pro
+
+Masing-masing berisi:
+
+Fitur utama
+
+Highlight “Paling Populer” pada paket tengah
+
+Tombol CTA: “Mulai Proyek”
+
+6️⃣ Tools Favorit (Affiliate Style Section)
+
+Judul:
+“Tools Favorit untuk Bangun Brand Online”
+
+Tampilkan beberapa tools (dummy):
+
+Hosting
+
+Template website
+
+Design tools
+
+Email marketing tools
+
+Format seperti rekomendasi pribadi, bukan hard selling.
+
+7️⃣ Testimoni Section
+
+Beberapa testimoni dummy dari klien:
+
+Nama
+
+Bisnis
+
+Komentar singkat
+
+Gunakan card style.
+
+8️⃣ CTA Section Besar (Penutup)
+
+Judul:
+“Siap Punya Website yang Bikin Brand Kamu Terlihat Serius?”
+
+Subtext ajakan diskusi
+Tombol besar:
+“Diskusi Gratis Sekarang”
+
+9️⃣ Footer
+
+Isi:
+
+Nama brand/freelancer
+
+Navigasi cepat
+
+Kontak (email dummy)
+
+Sosial media icon
+
+Copyright
+
+🎨 Design Style
+
+Gunakan:
+
+Font modern (Google Fonts)
+
+Warna utama: kombinasi gelap + aksen cerah (misalnya hitam/abu + ungu atau biru elektrik)
+
+Rounded corners
+
+Soft shadow
+
+Smooth hover transitions
+
+Button modern
+
+🧠 Technical Notes
+
+Gunakan komponen terpisah per section
+
+Gunakan Tailwind utility classes
+
+Jangan pakai library UI berat
+
+Struktur file rapi
+
+Siap dikembangkan jadi website production
+
+🖼 Favicon
+
+Tambahkan konfigurasi favicon basic di Next.js head
+Gunakan placeholder logo berbentuk huruf inisial brand.
+
+Output yang saya inginkan:
+Kode lengkap landing page + komponen-komponennya dalam struktur Next.js App Router menggunakan TypeScript dan Tailwind.

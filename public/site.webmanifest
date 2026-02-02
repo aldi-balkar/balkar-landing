@@ -1,0 +1,16 @@
+{
+  "name": "GagituAldi - Jasa Pembuatan Website Profesional",
+  "short_name": "GagituAldi",
+  "description": "Jasa pembuatan website profesional untuk UMKM, brand, dan kreator muda Indonesia",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
