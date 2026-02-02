@@ -99,7 +99,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/Users/macbook/Documents/Projects/balkar-landing",
+    "outputFileTracingRoot": "/app",
     "experimental": {
       "useSkewCookie": false,
       "cacheLife": {
@@ -289,10 +289,10 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.ts",
     "turbopack": {
-      "root": "/Users/macbook/Documents/Projects/balkar-landing"
+      "root": "/app"
     }
   },
-  "appDir": "/Users/macbook/Documents/Projects/balkar-landing",
+  "appDir": "/app",
   "relativeAppDir": "",
   "files": [
     ".next/routes-manifest.json",
